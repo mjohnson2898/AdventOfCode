@@ -7,7 +7,7 @@ public class part1 {
         BufferedReader reader;
 
         try {
-            reader = new BufferedReader(new FileReader("resources/input.txt"));
+            reader = new BufferedReader(new FileReader("main/resources/input.txt"));
             String line = reader.readLine();
 
             int currSum = 0;
